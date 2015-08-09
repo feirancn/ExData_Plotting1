@@ -34,7 +34,7 @@ legend("topright",legend = c("Sub_metering_1","Sub_metering_2", "Sub_metering_3"
 
 plot(set1$DT,set1$Voltage,xlab="datetime",ylab="Voltage",type="l")
 
-plot(set1$DT,set1$Global_reactive_power,xlab = "",ylab="Global Reactive Power",type="l")
+plot(set1$DT,set1$Global_reactive_power,xlab = "datetime",ylab="Global Reactive Power",type="l")
 
 
 
